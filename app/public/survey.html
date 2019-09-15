@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<h1>Friend Finder!!</h1>
+<h2>The place to find friendship, love, or more!</h2> 
+
+<div class="container">
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">First Name</label>
+      <input type="text" class="form-control" id="name" placeholder="John">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlFile1">Insert photo of yourself.</label>
+      <input type="file" class="form-control-file" id="photo">
+    </div>
+    <div>
+      <label>How much do you like puppies?</label>
+      <select class="custom-select custom-select-md mb-3" id="question1">
+          <option selected>Rate 1-5</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select>
+      <label>How much do you like ice cream?</label>
+      <select class="custom-select custom-select-md mb-3" id="question2">
+          <option selected>Rate 1-5</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select>
+      <label>What would you rate the movie Mean Girls?</label>
+      <select class="custom-select custom-select-md mb-3" id="question3">
+          <option selected>Rate 1-5</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select>
+      <label>How much do you like sports?</label>
+      <select class="custom-select custom-select-md mb-3" id="question4">
+          <option selected>Rate 1-5</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select>
+      <label>How much do you like NASCAR?</label>
+      <select class="custom-select custom-select-md mb-3" id="question5">
+          <option selected>Rate 1-5</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select>
+      <label>How smart are you?</label>
+      <select class="custom-select custom-select-md mb-3" id="question6">
+          <option selected>Rate 1-5</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select>
+      <label>How funny do you think you are?</label>
+      <select class="custom-select custom-select-md mb-3" id="question7">
+          <option selected>Rate 1-5</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select>
+      <label>How do you sleep at night?</label>
+      <select class="custom-select custom-select-md mb-3" id="question8">
+          <option selected>Select</option>
+          <option value="1">I don't.</option>
+          <option value="2">With the fan on low. Trying to forget the accident.</option>
+          <option value="3">With the fan on high.</option>
+          <option value="4">Naked</option>
+          <option value="5">Like a baby</option>
+      </select>
+      <label>How much do you like Texas?</label>
+      <select class="custom-select custom-select-md mb-3" id="question9">
+          <option selected>Rate 1-5</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select>
+      <label>How much do you like babies?</label>
+      <select class="custom-select custom-select-md mb-3" id="question10">
+          <option selected>Rate 1-5</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select>
+    </div>
+    <div class="form-group row">
+      <div>
+        <button class="btn btn-primary" id="submit-btn" type="submit">
+          <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+          <span class="sr-only">Loading...</span>
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  window.addEventListener('submit', function(event) {
+    event.preventDefault();
+  });
+    $("#submit-btn").on("click", function(){
+      console.log($("#photo").val())
+    //   var newFriend = {
+    //     name: $("#name").val().trim(),
+    //     photo: $("#photo").val(),
+    //     score: [
+    //       $("#question1").val(),
+    //       $("#question2").val(),
+    //       $("#question3").val(),
+    //       $("#question4").val(),
+    //       $("#question5").val(),
+    //       $("#question6").val(),
+    //       $("#question7").val(),
+    //       $("#question8").val(),
+    //       $("#question9").val(),
+    //       $("#question10").val(),
+    //     ]
+    //   };
+    // console.log(newFriend);
+    });
+
+
+
+
+
+</script>
+</html>
