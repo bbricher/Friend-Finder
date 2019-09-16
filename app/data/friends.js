@@ -17,7 +17,7 @@ var friends = [
     },
     {
         "name":"Catherine",
-        "photo":"../data/Catherine",
+        "photo":"https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/20953497_10155142675358821_5779292633472360316_n.jpg?_nc_cat=106&_nc_oc=AQn0iPAC0E52O0UhC5Njl8GW6VCIgi5Z9Id9QB0PGfHrMXplmGnin8T0uNR-BEKQc5U&_nc_ht=scontent-dfw5-1.xx&oh=4b8cf03d9c9afa633771819696420def&oe=5DF5F375",
         "scores":[
             4,
             3,
@@ -33,7 +33,7 @@ var friends = [
     },
     {
         "name":"Anne",
-        "photo":"../data/Anne",
+        "photo":"https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/42643565_10214929312363763_465848117317599232_n.jpg?_nc_cat=105&_nc_oc=AQmNGyUAwibgZzqFvX8snRC0J2jiOhW7U4MVo4kpRtsqmDXI7lykK_mQxOTaclYxtL8&_nc_ht=scontent-dfw5-1.xx&oh=97783c598e7c6d037bfd5328bfa86a05&oe=5DF10931",
         "scores":[
             5,
             3,
@@ -49,7 +49,7 @@ var friends = [
     },
     {
         "name":"Emma",
-        "photo":"../data/Emma",
+        "photo":"https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/36990662_1872985656335485_4041866591233638400_n.jpg?_nc_cat=104&_nc_oc=AQl2XvquZfaephwJWCtsT3GKUWjnzOEnHVAJQ8pUYJkINeqnxDgUXLcehLF84gus9ZQ&_nc_ht=scontent-dfw5-1.xx&oh=37bf78ac5923cd9a91c388faa6f09309&oe=5DFBD76A",
         "scores":[
             5,
             3,
@@ -65,7 +65,7 @@ var friends = [
     },
     {
         "name":"Gabe",
-        "photo":"../data/Gabe",
+        "photo":"https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/12342471_10205729899236175_5269505949425753461_n.jpg?_nc_cat=107&_nc_oc=AQnm3c7PQGSNxZAtFiUrzgqB0pijQkV-Bo-fSxJwbp-T-x7J69CvzQ0succwNtalbQ0&_nc_ht=scontent-dfw5-1.xx&oh=2deb502b4b2d08771d3c015764bc98fc&oe=5E05BD3B",
         "scores":[
             5,
             5,
@@ -81,7 +81,7 @@ var friends = [
     },
     {
         "name":"Andrew",
-        "photo":"../data/Andrew",
+        "photo":"https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/10917283_10202513802726716_7898153990550226328_n.jpg?_nc_cat=104&_nc_oc=AQnoIZ6wUGvu2biwJOgV4TqzH9vhE0IyJsFnT5whMuOZlgZq6W56vVr9chdc01XJh1M&_nc_ht=scontent-dfw5-1.xx&oh=4ee3ecd498c70a6085d22dbb732b65c1&oe=5E3BCB86",
         "scores":[
             5,
             1,
@@ -97,7 +97,7 @@ var friends = [
     },
     {
         "name":"Nicho",
-        "photo":"../data/Nicho",
+        "photo":"https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/42629597_2358564940825887_3121384262805225472_n.jpg?_nc_cat=105&_nc_oc=AQlwfxlM5ZGiXvbIWuJRvIdcFWyytCYndSaIPvK09gYwljhsj4TfWFfvd5LA5PF5uzc&_nc_ht=scontent-dfw5-1.xx&oh=4b6cde70fee5ca375e534b0c6f66233e&oe=5E3735E8",
         "scores":[
             3,
             1,
