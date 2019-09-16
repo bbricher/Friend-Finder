@@ -1,7 +1,7 @@
 var express = require('express');
 
 var HTML = require("./app/routing/htmlRoutes");
-var API = reguire("./app/routing/apiRoutes");
+var API = require("./app/routing/apiRoutes");
 
 var app = express();
 var PORT = process.env.PORT || 3000;

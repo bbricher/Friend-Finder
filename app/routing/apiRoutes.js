@@ -1,4 +1,7 @@
 var friends = require(`../data/friends`)
+var express = require("express")
+
+var app = express()
 
 app.get("/api/friends", function(req, res) {
   return res.json(friends);
@@ -21,6 +24,13 @@ var compatibility = app.post("/api/friends", function(req, res) {
     compatabilityArray.push(compatibilityObj);
     console.log(compatabilityArray);
   }
+  var lowest = Math.min(compatabilityArray[0].results, compatabilityArray[1].results, compatabilityArray[2].results, compatabilityArray[3].results, compatabilityArray[4].results, compatabilityArray[5].results)
+  for (var j = 0; j < compatabilityArray.length; j++) {
+    if (compatabilityArray[j].results === lowest) {
+      var compatableFriend = compatabilityArray[j];
+    }
+  }
+  console.log(compatableFriend);
   res.json(compatableFriend);   
 })
 
